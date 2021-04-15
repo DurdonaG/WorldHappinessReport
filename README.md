@@ -76,9 +76,14 @@ Google collab link: https://colab.research.google.com/drive/1QU7MO7j17oQNt7QQubV
 
 ## Conclusion
 
+*Interpretation* 
+
+According to my findings, 9 of the 10 happiest coutries are located in Europe while 7 of the unhappiest countries are located in Africa. Correlation analysis showed that while social support and happiness index are strongly positevely correlated, freedom and corruption are negatively correlated. There was no significant correlation between generosity and happiness index. Visualization of ladder score by index, once again demonstrated that happiness levels vary by continents Western Europe having the highest happiness levels. 
+
+*What additional data might be useful?* 
+
+The World Happiness Report is a landmark survey of the state of global happiness. The report continues to gain global recognition as governments, organizations and civil society increasingly use happiness indicators to inform their policy-making decisions. Leading experts across fields – economics, psychology, survey analysis, national statistics, health, public policy and more – describe how measurements of well-being can be used effectively to assess the progress of nations. The reports review the state of happiness in the world today and show how the new science of happiness explains personal and national variations in happiness. For further reseach, countries could be studied individually to see what changes in certain factors increased or decreased happiness index. 
+
 *Is Python more useful for data analysis in this work?*
 
-*Interpretation* 
-What do your findings mean and why might this be important for an organization relevant to this datasource? Did anything change when you revisited the problem? How did Python help or not help in this analysis? Highlight how any new findings should be used in practice, and what additional data might be useful for further analysis. If you lost points in this section for the first project, make sure to address these in this write up
-
-The World Happiness Report is a landmark survey of the state of global happiness. The report continues to gain global recognition as governments, organizations and civil society increasingly use happiness indicators to inform their policy-making decisions. Leading experts across fields – economics, psychology, survey analysis, national statistics, health, public policy and more – describe how measurements of well-being can be used effectively to assess the progress of nations. The reports review the state of happiness in the world today and show how the new science of happiness explains personal and national variations in happiness. 
+Doing this analysis, I can conclude that Python is capable of handling much larger volumes of data than Excel. Calculations are faster and formulas can be more complex and specific compared to Excel’s. Many of the basic standard libraries I used, or extensions, including NumPy and Pandas perform these tasks with a few lines of code where Excel may take ten times as many commands to perform the same work. Visualization can be extended and motified and Python gives more options whera Excel is limited to some. For example, to calculate a correlation and make a scatterplot with a trendline on Python was much aster and efficient than on Excel. 
