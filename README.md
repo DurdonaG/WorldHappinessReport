@@ -34,6 +34,21 @@ This was summarized in the following chart:
 
 Next, correlations between variables were calculated to see how happiness index is related to certain metrics and to observe the relationship between metrics. 
 
+1. Correlation between Social Support and Happiness Index: 
+Correlation coefficient being 0.76 indicates a strong positive relationship between social support and happiness index. This can be seen in the graph below. 
+![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/SocialsHI.png)
+
+2. Correlation between Generosity and Happiness Index: 
+Small negative correlation coefficient between generosity and happiness index is -0.017. So we can conclude that happiness index does not depend on generosity as can be seen in the scatterplot below. 
+![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/Generosity%20HI.png)
+
+3. Correlation between Corruption and Happiness Index:
+Correlation coefficient: -0.42
+![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/CorruptionHI.png)
+
+4. Correlation between Freedom and Corruption:
+Correlation coefficient: -0.4
+![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/FreedomCorruption.png)
 
 
 ## Conclusion
