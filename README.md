@@ -1,4 +1,4 @@
-# Exploratory data analysis of World Happiness Report 
+# Exploratory data analysis of World Happiness Report 2021
 
 ## Background 
 
@@ -30,28 +30,55 @@ First, insights from datasets were concluded as follows:
 According to data provided, happies country is Finland and unhappiest country is Afganistan for 2021. 9 of top 10 happiest countries were in Europe while 7 of bottom 10 unhappiest countries are in Africa. 
 
 This was summarized in the following chart: 
-![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/summary1.png)
+![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/Summary1.png)
 
 Next, correlations between variables were calculated to see how happiness index is related to certain metrics and to observe the relationship between metrics. 
 
-1. Correlation between Social Support and Happiness Index: 
+**1. Correlation between Social Support and Happiness Index:** 
 Correlation coefficient being 0.76 indicates a strong positive relationship between social support and happiness index. This can be seen in the graph below. 
 ![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/SocialsHI.png)
+![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/SSHI.png)
 
-2. Correlation between Generosity and Happiness Index: 
+**2. Correlation between Generosity and Happiness Index:** 
 Small negative correlation coefficient between generosity and happiness index is -0.017. So we can conclude that happiness index does not depend on generosity as can be seen in the scatterplot below. 
 ![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/Generosity%20HI.png)
 
-3. Correlation between Corruption and Happiness Index:
+**3. Correlation between Corruption and Happiness Index:**
 Correlation coefficient: -0.42
 ![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/CorruptionHI.png)
 
-4. Correlation between Freedom and Corruption:
+**4. Correlation between Freedom and Corruption:**
 Correlation coefficient: -0.4
 ![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/FreedomCorruption.png)
+![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/FreedomC.png)
+
+After looking at correlations, **ladder scores for all countries was visualized** as can be seen below: 
+
+![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/Ladder%20Scores.png) 
+
+Next, we looked at some trends of **how certain metrics have developed over the course of past years (2006- 2020) in the US:**
+
+GDP per capita:
+
+![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/USGDP.png)
+
+Social support:
+
+![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/USSocial%20support.png)
+
+Life Ladder:
+
+![](https://github.com/DurdonaG/WorldHappinessReport/blob/main/Images/USlifeladder.png)
+
 
 Google collab link: https://colab.research.google.com/drive/1QU7MO7j17oQNt7QQubVWMqOOZWQN_2ju?usp=sharing
 
 
 ## Conclusion
+
+*Is Python more useful for data analysis in this work?*
+
+*Interpretation* 
+What do your findings mean and why might this be important for an organization relevant to this datasource? Did anything change when you revisited the problem? How did Python help or not help in this analysis? Highlight how any new findings should be used in practice, and what additional data might be useful for further analysis. If you lost points in this section for the first project, make sure to address these in this write up
+
 The World Happiness Report is a landmark survey of the state of global happiness. The report continues to gain global recognition as governments, organizations and civil society increasingly use happiness indicators to inform their policy-making decisions. Leading experts across fields – economics, psychology, survey analysis, national statistics, health, public policy and more – describe how measurements of well-being can be used effectively to assess the progress of nations. The reports review the state of happiness in the world today and show how the new science of happiness explains personal and national variations in happiness. 
